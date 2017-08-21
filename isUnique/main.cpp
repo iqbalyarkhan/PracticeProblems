@@ -5,9 +5,6 @@
 
 using namespace std;
 
-/*CTCI : is unique: Implement an algorithm to determine if a string has all unique characters.
- * What if you cannot use additional data structure?*/
-
 bool isUnique(string& str){
 
     sort(str.begin(), str.end());
